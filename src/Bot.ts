@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 import { Client } from "discord.js";
 import ready from "./listeners/ready";
 
