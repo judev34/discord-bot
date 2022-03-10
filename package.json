@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/Bot.js"
+    "start": "node dist/Bot.js",
+    "dev": "ts-node src/Bot.ts"
   },
   "repository": {
     "type": "git",
