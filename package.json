@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/Bot.ts"
+    "start": "node dist/Bot.js"
   },
   "repository": {
     "type": "git",
