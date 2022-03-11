@@ -20,4 +20,9 @@
 
 ```
 
+```
+/sentence : return a random sentence
+
+```
+
 More commands soon ...
